@@ -95,9 +95,12 @@ while True:
     else:
         c.close()
         break
+```
+
 
 <img width="1465" height="314" alt="image" src="https://github.com/user-attachments/assets/041d0757-de57-438b-83cd-6c1a33c5920d" />
 
+```
 server.py
 
 server.py
@@ -107,9 +110,9 @@ s.connect(('localhost',8090))
 while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
+```
 
 <img width="1478" height="305" alt="image" src="https://github.com/user-attachments/assets/0bf877f6-52fe-4ac3-b8c3-9e91cea65b9a" />
-
 ## Result:
 
 Thus the study on Client Server Chat Applications has been performed
